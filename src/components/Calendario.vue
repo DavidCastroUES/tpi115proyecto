@@ -44,7 +44,7 @@
             }, 
             methods: {
                 async getCalendario() {
-                    let url = '//fixture_qatar_backend.test/api/calendario'
+                    let url = 'http://fixture_qatar_backend.test/api/calendario'
                     await axios.get(url).then(response =>{
                         this.calendario = response.data.calendario
                         console.log(this.calendario)
