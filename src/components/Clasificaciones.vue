@@ -188,7 +188,7 @@ export default {
   }, 
   methods: {
       async getClasificacion() {
-        let url = 'http://fixture_qatar_backend.test/api/tabla-posiciones'
+        let url = '//fixture_qatar_backend.test/api/tabla-posiciones'
         await axios.get(url).then(response =>{
             this.clasificaciones = response.data
             console.log(this.clasificaciones)
